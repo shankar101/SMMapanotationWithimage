@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		905592041D30A3E700F84B0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 905592031D30A3E700F84B0D /* main.m */; };
+		905592071D30A3E700F84B0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 905592061D30A3E700F84B0D /* AppDelegate.m */; };
+		9055920A1D30A3E700F84B0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905592091D30A3E700F84B0D /* ViewController.m */; };
+		9055920D1D30A3E700F84B0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9055920B1D30A3E700F84B0D /* Main.storyboard */; };
+		905592101D30A3E700F84B0D /* SMMapwithImage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9055920E1D30A3E700F84B0D /* SMMapwithImage.xcdatamodeld */; };
+		905592121D30A3E700F84B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 905592111D30A3E700F84B0D /* Assets.xcassets */; };
+		905592151D30A3E700F84B0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905592131D30A3E700F84B0D /* LaunchScreen.storyboard */; };
+		905592201D30A3E700F84B0D /* SMMapwithImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9055921F1D30A3E700F84B0D /* SMMapwithImageTests.m */; };
+		9055922B1D30A3E700F84B0D /* SMMapwithImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9055922A1D30A3E700F84B0D /* SMMapwithImageUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9055921C1D30A3E700F84B0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 905591F71D30A3E700F84B0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 905591FE1D30A3E700F84B0D;
+			remoteInfo = SMMapwithImage;
+		};
+		905592271D30A3E700F84B0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 905591F71D30A3E700F84B0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 905591FE1D30A3E700F84B0D;
+			remoteInfo = SMMapwithImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		905591FF1D30A3E700F84B0D /* SMMapwithImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMMapwithImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		905592031D30A3E700F84B0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		905592051D30A3E700F84B0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		905592061D30A3E700F84B0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		905592081D30A3E700F84B0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		905592091D30A3E700F84B0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9055920C1D30A3E700F84B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9055920F1D30A3E700F84B0D /* SMMapwithImage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SMMapwithImage.xcdatamodel; sourceTree = "<group>"; };
+		905592111D30A3E700F84B0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		905592141D30A3E700F84B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		905592161D30A3E700F84B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9055921B1D30A3E700F84B0D /* SMMapwithImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMMapwithImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9055921F1D30A3E700F84B0D /* SMMapwithImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMMapwithImageTests.m; sourceTree = "<group>"; };
+		905592211D30A3E700F84B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		905592261D30A3E700F84B0D /* SMMapwithImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMMapwithImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9055922A1D30A3E700F84B0D /* SMMapwithImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMMapwithImageUITests.m; sourceTree = "<group>"; };
+		9055922C1D30A3E700F84B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		905591FC1D30A3E700F84B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905592181D30A3E700F84B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905592231D30A3E700F84B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		905591F61D30A3E700F84B0D = {
+			isa = PBXGroup;
+			children = (
+				905592011D30A3E700F84B0D /* SMMapwithImage */,
+				9055921E1D30A3E700F84B0D /* SMMapwithImageTests */,
+				905592291D30A3E700F84B0D /* SMMapwithImageUITests */,
+				905592001D30A3E700F84B0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		905592001D30A3E700F84B0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				905591FF1D30A3E700F84B0D /* SMMapwithImage.app */,
+				9055921B1D30A3E700F84B0D /* SMMapwithImageTests.xctest */,
+				905592261D30A3E700F84B0D /* SMMapwithImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		905592011D30A3E700F84B0D /* SMMapwithImage */ = {
+			isa = PBXGroup;
+			children = (
+				905592051D30A3E700F84B0D /* AppDelegate.h */,
+				905592061D30A3E700F84B0D /* AppDelegate.m */,
+				905592081D30A3E700F84B0D /* ViewController.h */,
+				905592091D30A3E700F84B0D /* ViewController.m */,
+				9055920B1D30A3E700F84B0D /* Main.storyboard */,
+				905592111D30A3E700F84B0D /* Assets.xcassets */,
+				905592131D30A3E700F84B0D /* LaunchScreen.storyboard */,
+				905592161D30A3E700F84B0D /* Info.plist */,
+				9055920E1D30A3E700F84B0D /* SMMapwithImage.xcdatamodeld */,
+				905592021D30A3E700F84B0D /* Supporting Files */,
+			);
+			path = SMMapwithImage;
+			sourceTree = "<group>";
+		};
+		905592021D30A3E700F84B0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				905592031D30A3E700F84B0D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9055921E1D30A3E700F84B0D /* SMMapwithImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				9055921F1D30A3E700F84B0D /* SMMapwithImageTests.m */,
+				905592211D30A3E700F84B0D /* Info.plist */,
+			);
+			path = SMMapwithImageTests;
+			sourceTree = "<group>";
+		};
+		905592291D30A3E700F84B0D /* SMMapwithImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9055922A1D30A3E700F84B0D /* SMMapwithImageUITests.m */,
+				9055922C1D30A3E700F84B0D /* Info.plist */,
+			);
+			path = SMMapwithImageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		905591FE1D30A3E700F84B0D /* SMMapwithImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9055922F1D30A3E700F84B0D /* Build configuration list for PBXNativeTarget "SMMapwithImage" */;
+			buildPhases = (
+				905591FB1D30A3E700F84B0D /* Sources */,
+				905591FC1D30A3E700F84B0D /* Frameworks */,
+				905591FD1D30A3E700F84B0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMMapwithImage;
+			productName = SMMapwithImage;
+			productReference = 905591FF1D30A3E700F84B0D /* SMMapwithImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9055921A1D30A3E700F84B0D /* SMMapwithImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905592321D30A3E700F84B0D /* Build configuration list for PBXNativeTarget "SMMapwithImageTests" */;
+			buildPhases = (
+				905592171D30A3E700F84B0D /* Sources */,
+				905592181D30A3E700F84B0D /* Frameworks */,
+				905592191D30A3E700F84B0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9055921D1D30A3E700F84B0D /* PBXTargetDependency */,
+			);
+			name = SMMapwithImageTests;
+			productName = SMMapwithImageTests;
+			productReference = 9055921B1D30A3E700F84B0D /* SMMapwithImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		905592251D30A3E700F84B0D /* SMMapwithImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905592351D30A3E700F84B0D /* Build configuration list for PBXNativeTarget "SMMapwithImageUITests" */;
+			buildPhases = (
+				905592221D30A3E700F84B0D /* Sources */,
+				905592231D30A3E700F84B0D /* Frameworks */,
+				905592241D30A3E700F84B0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				905592281D30A3E700F84B0D /* PBXTargetDependency */,
+			);
+			name = SMMapwithImageUITests;
+			productName = SMMapwithImageUITests;
+			productReference = 905592261D30A3E700F84B0D /* SMMapwithImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		905591F71D30A3E700F84B0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Shankar;
+				TargetAttributes = {
+					905591FE1D30A3E700F84B0D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					9055921A1D30A3E700F84B0D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 905591FE1D30A3E700F84B0D;
+					};
+					905592251D30A3E700F84B0D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 905591FE1D30A3E700F84B0D;
+					};
+				};
+			};
+			buildConfigurationList = 905591FA1D30A3E700F84B0D /* Build configuration list for PBXProject "SMMapwithImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 905591F61D30A3E700F84B0D;
+			productRefGroup = 905592001D30A3E700F84B0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				905591FE1D30A3E700F84B0D /* SMMapwithImage */,
+				9055921A1D30A3E700F84B0D /* SMMapwithImageTests */,
+				905592251D30A3E700F84B0D /* SMMapwithImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		905591FD1D30A3E700F84B0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905592151D30A3E700F84B0D /* LaunchScreen.storyboard in Resources */,
+				905592121D30A3E700F84B0D /* Assets.xcassets in Resources */,
+				9055920D1D30A3E700F84B0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905592191D30A3E700F84B0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905592241D30A3E700F84B0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		905591FB1D30A3E700F84B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905592101D30A3E700F84B0D /* SMMapwithImage.xcdatamodeld in Sources */,
+				9055920A1D30A3E700F84B0D /* ViewController.m in Sources */,
+				905592071D30A3E700F84B0D /* AppDelegate.m in Sources */,
+				905592041D30A3E700F84B0D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905592171D30A3E700F84B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905592201D30A3E700F84B0D /* SMMapwithImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905592221D30A3E700F84B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9055922B1D30A3E700F84B0D /* SMMapwithImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9055921D1D30A3E700F84B0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 905591FE1D30A3E700F84B0D /* SMMapwithImage */;
+			targetProxy = 9055921C1D30A3E700F84B0D /* PBXContainerItemProxy */;
+		};
+		905592281D30A3E700F84B0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 905591FE1D30A3E700F84B0D /* SMMapwithImage */;
+			targetProxy = 905592271D30A3E700F84B0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9055920B1D30A3E700F84B0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9055920C1D30A3E700F84B0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		905592131D30A3E700F84B0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				905592141D30A3E700F84B0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9055922D1D30A3E700F84B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9055922E1D30A3E700F84B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		905592301D30A3E700F84B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SMMapwithImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shankar-ios.SMMapwithImage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		905592311D30A3E700F84B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SMMapwithImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shankar-ios.SMMapwithImage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		905592331D30A3E700F84B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SMMapwithImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shankar-ios.SMMapwithImageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMMapwithImage.app/SMMapwithImage";
+			};
+			name = Debug;
+		};
+		905592341D30A3E700F84B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SMMapwithImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shankar-ios.SMMapwithImageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMMapwithImage.app/SMMapwithImage";
+			};
+			name = Release;
+		};
+		905592361D30A3E700F84B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SMMapwithImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shankar-ios.SMMapwithImageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SMMapwithImage;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		905592371D30A3E700F84B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SMMapwithImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shankar-ios.SMMapwithImageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SMMapwithImage;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		905591FA1D30A3E700F84B0D /* Build configuration list for PBXProject "SMMapwithImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9055922D1D30A3E700F84B0D /* Debug */,
+				9055922E1D30A3E700F84B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9055922F1D30A3E700F84B0D /* Build configuration list for PBXNativeTarget "SMMapwithImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905592301D30A3E700F84B0D /* Debug */,
+				905592311D30A3E700F84B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		905592321D30A3E700F84B0D /* Build configuration list for PBXNativeTarget "SMMapwithImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905592331D30A3E700F84B0D /* Debug */,
+				905592341D30A3E700F84B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		905592351D30A3E700F84B0D /* Build configuration list for PBXNativeTarget "SMMapwithImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905592361D30A3E700F84B0D /* Debug */,
+				905592371D30A3E700F84B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9055920E1D30A3E700F84B0D /* SMMapwithImage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9055920F1D30A3E700F84B0D /* SMMapwithImage.xcdatamodel */,
+			);
+			currentVersion = 9055920F1D30A3E700F84B0D /* SMMapwithImage.xcdatamodel */;
+			path = SMMapwithImage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 905591F71D30A3E700F84B0D /* Project object */;
+}
