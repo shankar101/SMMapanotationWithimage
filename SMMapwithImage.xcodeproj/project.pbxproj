@@ -16,6 +16,7 @@
 		905592151D30A3E700F84B0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905592131D30A3E700F84B0D /* LaunchScreen.storyboard */; };
 		905592201D30A3E700F84B0D /* SMMapwithImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9055921F1D30A3E700F84B0D /* SMMapwithImageTests.m */; };
 		9055922B1D30A3E700F84B0D /* SMMapwithImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9055922A1D30A3E700F84B0D /* SMMapwithImageUITests.m */; };
+		905592391D30A48900F84B0D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 905592381D30A48900F84B0D /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		905592261D30A3E700F84B0D /* SMMapwithImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMMapwithImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9055922A1D30A3E700F84B0D /* SMMapwithImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMMapwithImageUITests.m; sourceTree = "<group>"; };
 		9055922C1D30A3E700F84B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		905592381D30A48900F84B0D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				905592391D30A48900F84B0D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 		905591F61D30A3E700F84B0D = {
 			isa = PBXGroup;
 			children = (
+				905592381D30A48900F84B0D /* MapKit.framework */,
 				905592011D30A3E700F84B0D /* SMMapwithImage */,
 				9055921E1D30A3E700F84B0D /* SMMapwithImageTests */,
 				905592291D30A3E700F84B0D /* SMMapwithImageUITests */,
